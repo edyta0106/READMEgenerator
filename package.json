@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/edyta0106/READMEgenerator/issues"
   },
-  "homepage": "https://github.com/edyta0106/READMEgenerator#readme"
+  "homepage": "https://github.com/edyta0106/READMEgenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
 }
