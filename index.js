@@ -11,10 +11,6 @@ const questions = [
   {
     type: "input",
     message: "Provide a short description explaining the what, why, and how of your project.",
-    // What was your motivation?
-    // Why did you build this project?
-    // What problem does it solve?
-    // What did you learn?
     name: "description",
   },
   {
@@ -30,19 +26,17 @@ const questions = [
   },
   {
     type: "list",
-    choices: ["MIT", "Apache", "BSD"],
+    choices: ["MIT", "Apache", "BSD", "none"],
     message: "Please select a license",
     name: "license",
   },
   {
-    //   How do I give the user the option to skip over this question?
     type: "input",
     message:
       "If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.",
     name: "contribution",
   },
   {
-    //   How do I give the user the option to skip over this question?
     type: "input",
     message: "Go the extra mile and write tests for your application. Then provide examples on how to run them here.",
     name: "tests",
@@ -50,7 +44,6 @@ const questions = [
   {
     type: "input",
     message: "Please enter your GitHub username.",
-    // How to add a link to GitHub profile?
     name: "github",
   },
   {

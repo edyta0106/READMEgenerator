@@ -1,10 +1,10 @@
 # README Generator
 
-![License](https://img.shields.io/badge/license-Apache-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
 
-The README Generator allows the user to input information about their project quickly and efficiently.
+The README Generator allows the user to input information about the project that they built and then returns a README file with user input.
 
 ## Table of Contents
 
@@ -17,23 +17,23 @@ The README Generator allows the user to input information about their project qu
 
 ## Installation
 
-In order to intall the project, the user will need to use nodejs and the inquirer.
+To install, use the command line to install the inquirer package. The application will be invoked using node index.js.
 
 ## Usage
 
-README will generate a file for the user with a description of the project.
+The README Generator will generate a README file for the user with a description of their project.
 
 ## License
 
-    Apache
+    MIT
 
 ## Contribution
 
-N/A
+There is no application or package for other developers to contribute to.
 
 ## Tests
 
-N/A
+There aren't any extra tests for this application.
 
 ## Questions
 
@@ -41,4 +41,4 @@ N/A
 
 edyta0106@gmail.com
 
-Please email me at the email address listed above and I will get back to you as soon as I can.
+You can reach me at the email address listed above and I will get back to you as soon as I can.
