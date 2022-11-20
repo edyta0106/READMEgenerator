@@ -50,8 +50,8 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  ${renderGitHub(data.github)}
-  ${data.email}
+  ${renderGitHub(data.github)}\n
+  ${data.email}\n
   ${data.contact}
 `;
 }
