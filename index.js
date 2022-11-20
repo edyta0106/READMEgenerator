@@ -25,7 +25,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Provide instructions and examples for use. Include screenshots as needed.",
+    message: "Provide instructions and examples for use.",
     name: "usage",
   },
   {
@@ -51,13 +51,17 @@ const questions = [
     type: "input",
     message: "Please enter your GitHub username.",
     // How to add a link to GitHub profile?
-    name: "question1",
+    name: "github",
   },
   {
     type: "input",
     message: "Please enter your email.",
-    //  How to provide instructions on how to reach me?
-    name: "question2",
+    name: "email",
+  },
+  {
+    type: "input",
+    message: "Provide a short description of how you can be reached.",
+    name: "contact",
   },
 ];
 

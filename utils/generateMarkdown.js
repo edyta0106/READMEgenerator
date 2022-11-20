@@ -23,6 +23,10 @@ function renderLicenseSection(license) {
   return "";
 }
 
+function renderGitHub(github) {
+  return `[GitHub](https://github.com/${github})`;
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
@@ -33,21 +37,22 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * ${renderLicenseLink(data.license)}
-  * [How to Contribute](#contribution)
-  * [Test Instructions](#tests)
+  * [Contribution](#contribution)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
   ${renderLicenseSection(data.license)}
-  ## How to Contribute
+  ## Contribution
   ${data.contribution}
-  ## Test Instruction
+  ## Tests
   ${data.tests}
-  ## Contact Me
-  // email and LinkedIn will be created via a renderEmail and renderLinkedIn functions that will be posted below. Still need to figure out how to add instructions on how to reach user with additional questions.
-  ${data.question1}
-  ${data.question2}
+  ## Questions
+  ${renderGitHub(data.github)}
+  ${data.email}
+  ${data.contact}
 `;
 }
 
