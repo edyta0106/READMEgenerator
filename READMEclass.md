@@ -43,7 +43,7 @@ SO THAT I can quickly create a professional README for a new project
 
 The application won’t be deployed. Below is a link to a walkthrough video that demonstrates its functionality, as well a screenshot of a README file created via the README Generator.
 
-[Walk-through Video]()
+[Walk-through Video](https://drive.google.com/file/d/11UaIVJcF5y3nwgv8P9Jn51pinnXSOBIM/view)
 
 ![README File Screenshot](./images/Screenshot%202022-11-21%20at%203.04.46%20PM.png)
 

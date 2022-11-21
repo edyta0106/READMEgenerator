@@ -1,7 +1,10 @@
+// Create const for fs and inquirer to run the functions below
 const fs = require("fs");
 const inquirer = require("inquirer");
+// Link the generateMarkdown.js to index.js
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Create questions for the README file that the user will answer using node index.js
 const questions = [
   {
     type: "input",
@@ -58,12 +61,14 @@ const questions = [
   },
 ];
 
+// This function is responsible for obtaining the user input from node index.js
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     err ? console.log(err) : console.log("success");
   });
 }
 
+// This function is responsible captuing the answers from the writeToFile function above and displaying them on the README.md
 function init() {
   inquirer.prompt(questions).then((response) => {
     const fileData = generateMarkdown(response);
